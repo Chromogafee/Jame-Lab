@@ -1,71 +1,75 @@
 <html>
 	<head>
 		<meta charset="utf-8" /> 
-		<title>Grid & Ratio</title>
+		<title>GRID</title>
 	</head>
 	<body>
 		<div class="mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button">
 			<header class="mdl-layout__header layout">
-  			  <div class="mdl-layout__header-row">
-  			    <!-- Title -->
-  			    <span class="mdl-layout-title">Grid & Ratio</span>
+  			  <div class="mdl-layout__header-row">  			   
+  			    <span class="mdl-layout-title">G R I D</span>
   			  </div>
   			</header>
 
   			<main class="mdl-layout__content">
-  			  	<div class="mdl-grid">
-  					<div class="mdl-cell mdl-cell--8-col" id="search-papaer-grid">
+  			  <div class="mdl-grid" id="search-grid">
+  					<div class="mdl-cell mdl-cell--8-col" id="search-papaer-cell">
+
   						<div class="mdl-shadow--2dp" id="search-papaer">
   							<form action="#" id="search-form">
   								<span id="search-title">
-  									<i class="material-icons">search</i>
   									ค้นหา Publisher
   								</span>
-								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="search-text"> 
-							    	<input class="mdl-textfield__input" type="text" id="search-text-field"/>
-							    	<label class="mdl-textfield__label" for="search-text-field">ชื่อ/อีเมลล์...</label>
-							  	</div>
-							  	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-shadow--3dp mdl-js-ripple-effect" id="search-btn">
-								  ค้นหา
-								</button>
-							</form>
+  								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="search-text"> 
+  									<input class="mdl-textfield__input" type="text" id="search-text-field"/>
+  									<label class="mdl-textfield__label" for="search-text-field">ชื่อ/อีเมลล์...</label>
+  								</div>
+  							</form>
   						</div>
+
+  						<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-shadow--2dp mdl-js-ripple-effect" id="search-btn">
+                <i class="material-icons">search</i>
+              </button>
+
   					</div>
   				</div>
 
   				<div class="mdl-grid">
-  					<div class="mdl-cell mdl-cell--8-col" id="table-grid">
+  					<div class="mdl-cell mdl-cell--8-col" id="table-cell">
   						<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" id="table-paper">
-						  <thead>
-						    <tr>
-						      <th class="mdl-data-table__cell--non-numeric">Name</th>
-						      <th>Status</th>
-						      <th>Detail</th>
-						    </tr>
-						  </thead>
-						  <tbody>
-						    <tr>
-						      <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
-						      <td>25</td>
-						      <td>$2.90</td>
-						    </tr>
-						    <tr>
-						      <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
-						      <td>50</td>
-						      <td>$1.25</td>
-						    </tr>
-						    <tr>
-						      <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
-						      <td>10</td>
-						      <td>$2.35</td>
-						    </tr>
-						  </tbody>
-						</table>
+  							<thead>
+  								<tr>
+  									<th class="mdl-data-table__cell--non-numeric">Name</th>
+  									<th>Status</th>
+  									<th>Detail</th>
+  								</tr>
+  							</thead>
+  							<tbody>
+  								<tr>
+  									<td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
+  									<td>25</td>
+  									<td>$2.90</td>
+  								</tr>
+  								<tr>
+  									<td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
+  									<td>50</td>
+  									<td>$1.25</td>
+  								</tr>
+  								<tr>
+  									<td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+  									<td>10</td>
+  									<td>$2.35</td>
+  								</tr>
+  							</tbody>
+  						</table>
   					</div>
   				</div>
+
   			</main>
-		</div>
-	</body>
+
+  		</div>
+
+  	</body>
 </html>
 
 <style>
@@ -78,47 +82,58 @@
 			opacity:0.8; 
 		}
 	main{
-		background-color:rgb(87, 197, 160);*/
+		background-color:#9E9E9E;
+		/*background: url('../Image/Background/Cyberpunk-2077.jpg') center / cover;*/
 	}	
 
-	#search-papaer-grid{
-		margin: 0 auto;
-	}
-		#search-papaer{
-			margin-top: 24px;
-			background:white; 
-		}
-			#search-form{
-				text-align: center;
-			}
-				#search-title{
-					font-size: 14px;
-					font-weight: bold;
-				}
-					#search-title i{
-					font-size: inherit;
-					font-weight: inherit;
-				}
-				#search-text{
-					margin: 0 20;
-				}
-				#search-btn{
-					color:white;
-					background: #424242;	
-					font-weight: ;				
-				}
+  #search-grid{
+    padding-top: 24px;
+  }
+  	#search-papaer-cell{
+        margin: 0 auto;
+        text-align: center;
+  	}
+  		#search-papaer{
+        padding-left: 2%;
+        display: inline-block;
+  			background:#E2E2E2; 
+  		}
+  			#search-form{
+  				text-align: center;
+          margin: 0px;
+  			}
+  				#search-title{
+            color:#424242;
+  					font-size: 14px;
+  					font-weight: bold;
+  				}  					
+  				#search-text{
+  					margin: 0 20;
+  				}
+            #search-text .mdl-textfield__label{
+            color: #424242;
+            }
 
-	#table-grid{
+  				#search-btn{
+  					background: #57C5A0;
+  				}
+  					#search-btn i{
+  						color:#424242;
+              font-weight: bold;
+  					}
+
+	#table-cell{
 		margin: 0 auto;
 	}				
 		#table-paper{
 			margin: 0 auto;
 			width: 100%;
+			background: #E2E2E2;
 		}
 
 </style>
 <!-- Material Design Lite -->
-<link rel="stylesheet" href="../Style/material.min.css" />
+<link rel="stylesheet" href="../Style/material.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 <script>

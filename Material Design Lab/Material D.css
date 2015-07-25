@@ -1,4 +1,9 @@
-﻿■ ▼ ► ● ○ ━ ─
+﻿━━━━━━━━━━━━━━━━━━━━━━━━
+symbol : ■ ▼ ► ● ○ ━ ─
+Palette : #424242 #E2E2E2
+		  #57C5A0  
+━━━━━━━━━━━━━━━━━━━━━━━━
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Material Design Principle
@@ -13,7 +18,7 @@ Material Design Principle
 		● font
 			● image
 			● button
-				● fap
+				● fab
 				● raised
 				● flat
 	■ motion prvoides meaning
@@ -32,3 +37,15 @@ UI Design Step
 		● control
 		○ image
 	▼ color
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+UI Design Trick
+─────────────────────────────────────────
+
+	■ composition
+	■ color
+		● mathcing
+		● gradient
+	■ font
+	■ image
