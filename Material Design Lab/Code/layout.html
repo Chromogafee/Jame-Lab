@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<meta charset="utf-8" /> 
+		<title>Grid & Ratio</title>
+	</head>
+	<body>
+		<div class="mdl-layout mdl-js-layout mdl-layout--overlay-drawer-button">
+			<header class="mdl-layout__header layout">
+  			  <div class="mdl-layout__header-row">
+  			    <!-- Title -->
+  			    <span class="mdl-layout-title">Grid & Ratio</span>
+  			  </div>
+  			</header>
+
+  			<main class="mdl-layout__content">
+  			  	<div class="mdl-grid">
+  					<div class="mdl-cell mdl-cell--8-col" id="search-papaer-layout">
+  						<div class="mdl-shadow--2dp" id="search-papaer">
+  							<form action="#" id="search-form">
+  								<span id="search-title">
+  									<div class="icon icon-ic_play-circle_outline_black_24dp"></div>
+  									ค้นหา Publisher
+  								</span>
+								<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="search-text"> 
+							    	<input class="mdl-textfield__input" type="text" id="search-text-field"/>
+							    	<label class="mdl-textfield__label" for="search-text-field">ชื่อ/อีเมลล์...</label>
+							  	</div>
+							  	<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-shadow--3dp mdl-js-ripple-effect" id="search-btn">
+								  ค้นหา
+								</button>
+							</form>
+  						</div>
+  					</div>
+  				</div>
+  			</main>
+		</div>
+	</body>
+</html>
+
+<style>
+	.mdl-layout__header-row{
+
+		color: black;
+		background-color:white; 
+	}
+		.mdl-layout-title{
+			margin: 0 auto;
+			opacity:0.8; 
+		}
+
+	#search-papaer-layout{
+		margin: 0 auto;
+	}
+		#search-papaer{
+			margin-top: 24px;
+		}
+			#search-form{
+				text-align: center;
+			}
+				#search-title{
+					font-size: 14px;
+					font-weight: bold;
+				}
+				#search-text{
+					margin: 0 20;
+				}
+				#search-btn{
+					color:black;
+					background: white;					
+				}
+</style>
+<!-- Material Design Lite -->
+<link rel="stylesheet" href="../Style/material.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<script>
+</script>
+<!-- Material Design Lite -->
+<script src="../Script/material.min.js"></script>

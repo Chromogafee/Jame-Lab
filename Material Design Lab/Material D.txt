@@ -10,7 +10,7 @@ Material Design Principle
 			● grid => 8 px
 			● ratio => 1:1,4:3,16:9,...
 		● component
-			● font
+		● font
 			● image
 			● button
 				● fap
