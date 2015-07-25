@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Excel Export Test";
+}
+
+<script>
+    function x() {
+        var data = { "firstName": "John", "lastName": "Doe" };
+        myWindow = window.open("data:text/json," + encodeURIComponent(JSON.stringify(data)));
+        myWindow.focus();
+    }
+    x();
+</script>
+<h2>Excel Export Test</h2>
+

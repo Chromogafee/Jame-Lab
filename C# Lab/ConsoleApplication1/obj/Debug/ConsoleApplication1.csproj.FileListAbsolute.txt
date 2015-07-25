@@ -1,0 +1,10 @@
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.dll
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.xml
+C:\Users\Asus\Desktop\Ookbee\ConsoleApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml

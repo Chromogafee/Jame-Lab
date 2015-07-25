@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="JameLabModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'JameLab.dbo.book' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="book">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="pubid" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'JameLab.dbo.Customer' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nchar" MaxLength="50" />
+          <Property Name="City" Type="nchar" MaxLength="50" />
+          <Property Name="Industry Type" Type="nchar" MaxLength="1" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'JameLab.dbo.Orders' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="salesperson_id" />
+            <PropertyRef Name="Amount" />
+          </Key>
+          <Property Name="Number" Type="int" />
+          <Property Name="order_date" Type="char" MaxLength="20" />
+          <Property Name="cust_id" Type="int" />
+          <Property Name="salesperson_id" Type="int" Nullable="false" />
+          <Property Name="Amount" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'JameLab.dbo.Respon' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Respon">
+          <Key>
+            <PropertyRef Name="pubId" />
+          </Key>
+          <Property Name="pubId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ResponUid" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'JameLab.dbo.Salesperson' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="Salesperson">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nchar" MaxLength="50" />
+          <Property Name="Age" Type="int" />
+          <Property Name="Salary" Type="int" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nchar" MaxLength="20" />
+          <Property Name="Age" Type="int" />
+          <Property Name="Gender" Type="nchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nchar" MaxLength="5" Nullable="false" />
+          <Property Name="Name" Type="nchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'JameLab.dbo.Table_1' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="Table_1">
+          <Property Name="date" Type="datetime" />
+        </EntityType>-->
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'JameLab.dbo.wuser' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="wuser">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nchar" MaxLength="50" />
+          <Property Name="pubId" Type="int" />
+        </EntityType>
+        <EntityContainer Name="JameLabModelStoreContainer">
+          <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="book" EntityType="Self.book" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [book].[Id] AS [Id], 
+    [book].[pubid] AS [pubid]
+    FROM [dbo].[book] AS [book]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Customer" EntityType="Self.Customer" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Customer].[ID] AS [ID], 
+    [Customer].[Name] AS [Name], 
+    [Customer].[City] AS [City], 
+    [Customer].[Industry Type] AS [Industry Type]
+    FROM [dbo].[Customer] AS [Customer]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Orders" EntityType="Self.Orders" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Orders].[Number] AS [Number], 
+    [Orders].[order_date] AS [order_date], 
+    [Orders].[cust_id] AS [cust_id], 
+    [Orders].[salesperson_id] AS [salesperson_id], 
+    [Orders].[Amount] AS [Amount]
+    FROM [dbo].[Orders] AS [Orders]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Respon" EntityType="Self.Respon" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Respon].[pubId] AS [pubId], 
+    [Respon].[ResponUid] AS [ResponUid]
+    FROM [dbo].[Respon] AS [Respon]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="Salesperson" EntityType="Self.Salesperson" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Salesperson].[ID] AS [ID], 
+    [Salesperson].[Name] AS [Name], 
+    [Salesperson].[Age] AS [Age], 
+    [Salesperson].[Salary] AS [Salary]
+    FROM [dbo].[Salesperson] AS [Salesperson]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="wuser" EntityType="Self.wuser" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [wuser].[Id] AS [Id], 
+    [wuser].[Name] AS [Name], 
+    [wuser].[pubId] AS [pubId]
+    FROM [dbo].[wuser] AS [wuser]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="JameLabModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="Gender" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="5" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="book">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="pubid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="City" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="Industry_Type" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Orders">
+          <Key>
+            <PropertyRef Name="salesperson_id" />
+            <PropertyRef Name="Amount" />
+          </Key>
+          <Property Name="Number" Type="Int32" />
+          <Property Name="order_date" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="cust_id" Type="Int32" />
+          <Property Name="salesperson_id" Type="Int32" Nullable="false" />
+          <Property Name="Amount" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Respon">
+          <Key>
+            <PropertyRef Name="pubId" />
+          </Key>
+          <Property Name="pubId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ResponUid" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Salesperson">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="Age" Type="Int32" />
+          <Property Name="Salary" Type="Int32" />
+        </EntityType>
+        <EntityType Name="wuser">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Name="pubId" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="JameLabEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Student" EntityType="Self.Student" />
+          <EntitySet Name="Subject" EntityType="Self.Subject" />
+          <EntitySet Name="book" EntityType="Self.book" />
+          <EntitySet Name="Customer" EntityType="Self.Customer" />
+          <EntitySet Name="Orders" EntityType="Self.Orders" />
+          <EntitySet Name="Respon" EntityType="Self.Respon" />
+          <EntitySet Name="Salesperson" EntityType="Self.Salesperson" />
+          <EntitySet Name="wuser" EntityType="Self.wuser" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="JameLabModelStoreContainer" CdmEntityContainer="JameLabEntities">
+          <EntitySetMapping Name="Student">
+            <EntityTypeMapping TypeName="JameLabModel.Student">
+              <MappingFragment StoreEntitySet="Student">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subject">
+            <EntityTypeMapping TypeName="JameLabModel.Subject">
+              <MappingFragment StoreEntitySet="Subject">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="book">
+            <EntityTypeMapping TypeName="JameLabModel.book">
+              <MappingFragment StoreEntitySet="book">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="pubid" ColumnName="pubid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Customer">
+            <EntityTypeMapping TypeName="JameLabModel.Customer">
+              <MappingFragment StoreEntitySet="Customer">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Industry_Type" ColumnName="Industry Type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Orders">
+            <EntityTypeMapping TypeName="JameLabModel.Orders">
+              <MappingFragment StoreEntitySet="Orders">
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="order_date" ColumnName="order_date" />
+                <ScalarProperty Name="cust_id" ColumnName="cust_id" />
+                <ScalarProperty Name="salesperson_id" ColumnName="salesperson_id" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Respon">
+            <EntityTypeMapping TypeName="JameLabModel.Respon">
+              <MappingFragment StoreEntitySet="Respon">
+                <ScalarProperty Name="pubId" ColumnName="pubId" />
+                <ScalarProperty Name="ResponUid" ColumnName="ResponUid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Salesperson">
+            <EntityTypeMapping TypeName="JameLabModel.Salesperson">
+              <MappingFragment StoreEntitySet="Salesperson">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="wuser">
+            <EntityTypeMapping TypeName="JameLabModel.wuser">
+              <MappingFragment StoreEntitySet="wuser">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="pubId" ColumnName="pubId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

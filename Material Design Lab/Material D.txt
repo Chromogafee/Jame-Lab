@@ -1,0 +1,34 @@
+﻿■ ▼ ► ● ○ ━ ─
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+Material Design Principle
+─────────────────────────────────────────
+
+	■ material is the metaphor
+	■ bold , graphic , intentaional
+		● layout
+			● grid => 8 px
+			● ratio => 1:1,4:3,16:9,...
+		● component
+			● font
+			● image
+			● button
+				● fap
+				● raised
+				● flat
+	■ motion prvoides meaning
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+UI Design Step
+─────────────────────────────────────────
+
+	▼ sketch
+	▼ layout
+		● grid
+		● ratio
+	▼ component
+		● font
+		● control
+		○ image
+	▼ color
