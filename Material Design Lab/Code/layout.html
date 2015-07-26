@@ -27,7 +27,7 @@
   							</form>
   						<!-- </div> -->
 
-  						<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-shadow--2dp mdl-js-ripple-effect" id="search-btn">
+  						<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-shadow--1dp mdl-js-ripple-effect" id="search-btn">
                 <i class="material-icons">search</i>
               </button>
 
@@ -48,17 +48,29 @@
   								<tr>
   									<td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
   									<td>25</td>
-  									<td>$2.90</td>
+  									<td>
+                      <button class="detail-btn mdl-button mdl-js-button mdl-button--raised mdl-shadow--2dp mdl-js-ripple-effect">
+                        <i class="material-icons">info_outline</i>
+                      </button>
+                    </td>
   								</tr>
   								<tr>
   									<td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
   									<td>50</td>
-  									<td>$1.25</td>
+  									<td>
+                      <button class="detail-btn mdl-button mdl-js-button mdl-button--raised mdl-shadow--2dp mdl-js-ripple-effect">
+                        <i class="material-icons">info_outline</i>
+                      </button>
+                    </td>
   								</tr>
   								<tr>
   									<td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
   									<td>10</td>
-  									<td>$2.35</td>
+  									<td>
+                      <button class="detail-btn mdl-button mdl-js-button mdl-button--raised mdl-shadow--2dp mdl-js-ripple-effect">
+                        <i class="material-icons">info_outline</i>
+                      </button>
+                    </td>
   								</tr>
   							</tbody>
   						</table>
@@ -105,7 +117,7 @@
           display: inline-block;
   			}
   				#search-title{
-            color:white;
+            color:#FFFFFF;
   					font-size: 18px;
   					font-weight: bold;
   				}  					
@@ -113,10 +125,10 @@
   					margin: 0 20;
   				}
             #search-text .mdl-textfield__input{
-              color:white;
+              color:#FFFFFF;
             }
             #search-text .mdl-textfield__label:after{
-              background: white;
+              background: #FFFFFF;
             }
             #search-text .mdl-textfield__label{
               color: #E0E0E0;
@@ -125,7 +137,7 @@
   					background: #64DCB4;
   				}
   					#search-btn i{
-  						color:#424242;
+  						color:#000000;
               font-weight: bold;
   					}
 
@@ -135,8 +147,14 @@
 		#table-paper{
 			margin: 0 auto;
 			width: 100%;
-			background: white;
+			background: #FFFFFF;
 		}
+      #table-paper tr td:nth-child(3){
+        padding-bottom: 12px;
+      }
+        .detail-btn i{
+          color:#424242;
+        }
 
 </style>
 <!-- Material Design Lite -->
