@@ -1,7 +1,7 @@
 ﻿━━━━━━━━━━━━━━━━━━━━━━━━
 symbol : ■ ▼ ► ● ○ ━ ─
 Palette : #424242 #E2E2E2
-		  #57C5A0  
+		  #57C5A0 #64DCB4 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 
 
@@ -49,3 +49,13 @@ UI Design Trick
 		● gradient
 	■ font
 	■ image
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+CSS Position Property
+─────────────────────────────────────────
+	
+	■ static   => ref to self's position (can't move)
+	■ relative => ref to self's position 
+	■ absolute => ref to first positioned ancestor
+	■ fixed	   => ref to browser window

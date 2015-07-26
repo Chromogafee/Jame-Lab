@@ -15,7 +15,7 @@
   			  <div class="mdl-grid" id="search-grid">
   					<div class="mdl-cell mdl-cell--8-col" id="search-papaer-cell">
 
-  						<div class="mdl-shadow--2dp" id="search-papaer">
+  						<!-- <div class="mdl-shadow--2dp" id="search-papaer"> -->
   							<form action="#" id="search-form">
   								<span id="search-title">
   									ค้นหา Publisher
@@ -25,7 +25,7 @@
   									<label class="mdl-textfield__label" for="search-text-field">ชื่อ/อีเมลล์...</label>
   								</div>
   							</form>
-  						</div>
+  						<!-- </div> -->
 
   						<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored mdl-shadow--2dp mdl-js-ripple-effect" id="search-btn">
                 <i class="material-icons">search</i>
@@ -74,15 +74,16 @@
 
 <style>
 	.mdl-layout__header-row{
-		color: white;
-		background-color:#424242; 
+		color: #292727;
+		background-color:#F5F5F5; 
 	}
-		.mdl-layout-title{
+		.mdl-layout__header-row .mdl-layout-title{
 			margin: 0 auto;
 			opacity:0.8; 
+      font-family: "Roboto Slab";
 		}
 	main{
-		background-color:#9E9E9E;
+		background:-webkit-linear-gradient(top, rgba(30, 179, 154, 0.95) 0%, rgba(7, 59, 87, 0.95) 100%),url('../Image/Background/Cyberpunk-2077.jpg'); 
 		/*background: url('../Image/Background/Cyberpunk-2077.jpg') center / cover;*/
 	}	
 
@@ -101,21 +102,27 @@
   			#search-form{
   				text-align: center;
           margin: 0px;
+          display: inline-block;
   			}
   				#search-title{
-            color:#424242;
-  					font-size: 14px;
+            color:white;
+  					font-size: 18px;
   					font-weight: bold;
   				}  					
   				#search-text{
   					margin: 0 20;
   				}
-            #search-text .mdl-textfield__label{
-            color: #424242;
+            #search-text .mdl-textfield__input{
+              color:white;
             }
-
+            #search-text .mdl-textfield__label:after{
+              background: white;
+            }
+            #search-text .mdl-textfield__label{
+              color: #E0E0E0;
+            }
   				#search-btn{
-  					background: #57C5A0;
+  					background: #64DCB4;
   				}
   					#search-btn i{
   						color:#424242;
@@ -128,14 +135,14 @@
 		#table-paper{
 			margin: 0 auto;
 			width: 100%;
-			background: #E2E2E2;
+			background: white;
 		}
 
 </style>
 <!-- Material Design Lite -->
 <link rel="stylesheet" href="../Style/material.css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 <script>
 </script>
 <!-- Material Design Lite -->
