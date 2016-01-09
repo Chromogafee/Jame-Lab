@@ -1,0 +1,22 @@
+﻿@using Data_Annotations.Models;
+@model Customer
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    @Html.LabelFor(i => i.Name) <br>
+    @Html.TextBoxFor(i=>i.Name) @: &nbsp;  
+    @Html.ValidationMessageFor(i=>i.Name) <br>
+
+    @Html.LabelFor(i => i.Email) <br>
+    @Html.TextBoxFor(i => i.Email) <br>
+
+    @Html.LabelFor(i => i.Tel) <br>
+    @Html.TextBoxFor(i => i.Tel)<br>
+
+    <input type="submit" value="submit">
+}

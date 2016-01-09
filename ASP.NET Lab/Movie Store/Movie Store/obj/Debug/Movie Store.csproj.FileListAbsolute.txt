@@ -1,0 +1,41 @@
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\csc.exe
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\System.Collections.Immutable.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\vbc.exe
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\VBCSCompiler.exe
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\roslyn\VBCSCompiler.exe.config
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\Movie Store.dll.config
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\Movie Store.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\Movie Store.pdb
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\Microsoft.Web.Infrastructure.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Helpers.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Mvc.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Razor.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Webpages.Deployment.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Webpages.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Webpages.Razor.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Razor.xml
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Webpages.xml
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Webpages.Deployment.xml
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Webpages.Razor.xml
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Helpers.xml
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\System.Web.Mvc.xml
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\obj\Debug\Movie Store.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\obj\Debug\Movie Store.pdb
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\EntityFramework.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\EntityFramework.SqlServer.dll
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\EntityFramework.xml
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\bin\EntityFramework.SqlServer.xml
+c:\users\romady\documents\visual studio 2015\Projects\Movie Store\Movie Store\obj\Debug\Movie Store.csprojResolveAssemblyReference.cache
+C:\Users\Romady\Documents\Visual Studio 2015\Projects\Movie Store\Movie Store\obj\Debug\Movie_Store.Migrations.Initial.resources
+C:\Users\Romady\Documents\Visual Studio 2015\Projects\Movie Store\Movie Store\obj\Debug\Movie Store.csproj.GenerateResource.Cache
+C:\Users\Romady\Documents\Visual Studio 2015\Projects\Movie Store\Movie Store\obj\Debug\Movie_Store.Migrations.Rating.resources
+C:\Users\Romady\Documents\Visual Studio 2015\Projects\Movie Store\Movie Store\obj\Debug\Movie_Store.Migrations.DataAnnotations.resources

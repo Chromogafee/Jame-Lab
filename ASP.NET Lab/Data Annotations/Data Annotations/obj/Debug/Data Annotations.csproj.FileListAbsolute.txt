@@ -1,0 +1,33 @@
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\csc.exe
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\System.Collections.Immutable.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\vbc.exe
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\VBCSCompiler.exe
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\roslyn\VBCSCompiler.exe.config
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\Data Annotations.dll.config
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\Data Annotations.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\Data Annotations.pdb
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\Microsoft.Web.Infrastructure.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Helpers.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Mvc.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Razor.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Webpages.Deployment.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Webpages.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Webpages.Razor.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Razor.xml
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Webpages.xml
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Webpages.Deployment.xml
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Webpages.Razor.xml
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Helpers.xml
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\bin\System.Web.Mvc.xml
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\obj\Debug\Data Annotations.csprojResolveAssemblyReference.cache
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\obj\Debug\Data Annotations.dll
+c:\users\romady\documents\visual studio 2015\Projects\Data Annotations\Data Annotations\obj\Debug\Data Annotations.pdb

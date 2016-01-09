@@ -1,0 +1,6 @@
+c:\users\romady\documents\visual studio 2015\Projects\TDD\TDD\bin\Debug\TDD.exe.config
+c:\users\romady\documents\visual studio 2015\Projects\TDD\TDD\obj\Debug\TDD.csprojResolveAssemblyReference.cache
+c:\users\romady\documents\visual studio 2015\Projects\TDD\TDD\bin\Debug\TDD.exe
+c:\users\romady\documents\visual studio 2015\Projects\TDD\TDD\bin\Debug\TDD.pdb
+c:\users\romady\documents\visual studio 2015\Projects\TDD\TDD\obj\Debug\TDD.exe
+c:\users\romady\documents\visual studio 2015\Projects\TDD\TDD\obj\Debug\TDD.pdb

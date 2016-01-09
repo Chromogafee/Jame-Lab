@@ -1,0 +1,69 @@
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\csc.exe
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\System.Collections.Immutable.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\vbc.exe
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\VBCSCompiler.exe
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\roslyn\VBCSCompiler.exe.config
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\The Contoso University.dll.config
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\The Contoso University.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\The Contoso University.pdb
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Antlr3.Runtime.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\EntityFramework.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\EntityFramework.SqlServer.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.Google.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Web.Infrastructure.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Newtonsoft.Json.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Owin.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.Helpers.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.Mvc.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.Optimization.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.Razor.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.WebPages.Deployment.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.WebPages.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.WebPages.Razor.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\WebGrease.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.Helpers.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.Mvc.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.Optimization.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.Razor.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.WebPages.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.WebPages.Deployment.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\System.Web.WebPages.Razor.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Antlr3.Runtime.pdb
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Newtonsoft.Json.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\EntityFramework.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\EntityFramework.SqlServer.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.Google.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\obj\Debug\The Contoso University.csprojResolveAssemblyReference.cache
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\obj\Debug\The Contoso University.dll
+c:\users\romady\documents\visual studio 2015\Projects\The Contoso University\The Contoso University\obj\Debug\The Contoso University.pdb
